@@ -20,7 +20,7 @@ import tech.joaovitor.projeto.service.PerfilService;
 @RestController
 @RequestMapping("perfil")
 @CrossOrigin
-public class PerfilControlle {
+public class PerfilController {
     @Autowired
     private PerfilService perfilService;
 
